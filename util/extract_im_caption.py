@@ -1,22 +1,42 @@
 import pandas as pd
 import re
 
-data_src = 'D:/data/brain/brain_hemo_214.xlsx'
-term_src = '/term.xlsx'
+# original data location
+# data_src = 'D:/data/brain/brain_hemo_214.xlsx'
+# term_src = '/term.xlsx'
+
+
+# kbs data location-------------------------
+data_src = 'C:/Users/andlabkbs/Desktop/meddataset/202cases/brain_hemo_214.xlsx'
+term_src = data_src+'/../term.xlsx'
+#-------------------------------------------
 
 df = pd.read_excel(data_src, skiprows=5, usecols=['readout'])
 # df['readout'] = df['readout'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
 df = df.dropna()
 df.reset_index(drop=False, inplace=True)
-# print(df['readout'][0])
 
 wordlist = []
 wordoutlist = ['ct']
 
+# def add_wordlist(columnname):
+#     df = pd.read_excel(term_src, usecols=[columnname])
+#     df[columnname] = df[columnname].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
+#     df = df.dropna()  # NaN 값 제거
+#     df.reset_index(drop=False, inplace=True)  # NaN 값 제거 후 처음부터 인덱스 다시 부여
+#     for i in range(len(df)):
+#         x = df[columnname][i].split()
+#         for j in range(len(x)):
+#             if x[j] not in wordlist:
+#                 wordlist.append(x[j].lower())
+#
+# add_wordlist('hemo')
+# add_wordlist('Key Brain Terms Glossary')
+
 df2 = pd.read_excel(term_src, usecols=['hemo'])
 df2['hemo'] = df2['hemo'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
-df2 = df2.dropna()
-df2.reset_index(drop=False, inplace=True)
+df2 = df2.dropna() # NaN 값 제거
+df2.reset_index(drop=False, inplace=True) # NaN 값 제거 후 처음부터 인덱스 다시 부여
 
 df3 = pd.read_excel(term_src, usecols=['Key Brain Terms Glossary'])
 df3['Key Brain Terms Glossary'] = df3['Key Brain Terms Glossary'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
@@ -45,9 +65,6 @@ for i in range(len(df4)):
     for j in range(len(x)):
         if x[j] not in wordlist:
             wordlist.append(x[j].lower())
-
-# print(wordlist)
-
 
 strlist = []
 
