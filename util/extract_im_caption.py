@@ -5,7 +5,6 @@ import re
 # data_src = 'D:/data/brain/brain_hemo_214.xlsx'
 # term_src = '/term.xlsx'
 
-
 # kbs data location-------------------------
 data_src = 'C:/Users/andlabkbs/Desktop/meddataset/202cases/brain_hemo_214.xlsx'
 term_src = data_src+'/../term.xlsx'
@@ -17,7 +16,7 @@ df = df.dropna()
 df.reset_index(drop=False, inplace=True)
 
 wordlist = []
-wordoutlist = ['ct']
+wordoutlist = ['ct', 'fracture', 'eye', 'dental']
 
 # colum에 있는 word를 wordlist에 추가
 def add_wordlist(columnname):
@@ -30,6 +29,19 @@ def add_wordlist(columnname):
         for j in range(len(x)):
             if x[j] not in wordlist:
                 wordlist.append(x[j].lower())
+
+def add_wordoutlist(columnname):
+    df = pd.read_excel(term_src, usecols=[columnname])
+    df[columnname] = df[columnname].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
+    df = df.dropna()  # NaN 값 제거
+    df.reset_index(drop=False, inplace=True)  # NaN 값 제거 후 처음부터 인덱스 다시 부여
+    for i in range(len(df)):
+        x = df[columnname][i].split()
+        for j in range(len(x)):
+            if x[j] not in wordoutlist:
+                wordoutlist.append(x[j].lower())
+
+add_wordoutlist('Otorhinolaryngology')
 
 add_wordlist('hemo')
 add_wordlist('Key Brain Terms Glossary')
