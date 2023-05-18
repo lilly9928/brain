@@ -1,53 +1,38 @@
 import pandas as pd
 import re
 
-data_src = 'D:/data/brain/brain_hemo_214.xlsx'
-term_src = '/term.xlsx'
+# original data location
+# data_src = 'D:/data/brain/brain_hemo_214.xlsx'
+# term_src = '/term.xlsx'
+
+
+# kbs data location-------------------------
+data_src = 'C:/Users/andlabkbs/Desktop/meddataset/202cases/brain_hemo_214.xlsx'
+term_src = data_src+'/../term.xlsx'
+#-------------------------------------------
 
 df = pd.read_excel(data_src, skiprows=5, usecols=['readout'])
 # df['readout'] = df['readout'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
 df = df.dropna()
 df.reset_index(drop=False, inplace=True)
-# print(df['readout'][0])
 
 wordlist = []
 wordoutlist = ['ct']
 
-df2 = pd.read_excel(term_src, usecols=['hemo'])
-df2['hemo'] = df2['hemo'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
-df2 = df2.dropna()
-df2.reset_index(drop=False, inplace=True)
+# colum에 있는 word를 wordlist에 추가
+def add_wordlist(columnname):
+    df = pd.read_excel(term_src, usecols=[columnname])
+    df[columnname] = df[columnname].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
+    df = df.dropna()  # NaN 값 제거
+    df.reset_index(drop=False, inplace=True)  # NaN 값 제거 후 처음부터 인덱스 다시 부여
+    for i in range(len(df)):
+        x = df[columnname][i].split()
+        for j in range(len(x)):
+            if x[j] not in wordlist:
+                wordlist.append(x[j].lower())
 
-df3 = pd.read_excel(term_src, usecols=['Key Brain Terms Glossary'])
-df3['Key Brain Terms Glossary'] = df3['Key Brain Terms Glossary'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
-df3 = df3.dropna()
-df3.reset_index(drop=False, inplace=True)
-
-df4 = pd.read_excel(term_src, usecols=['paterehab'])
-df4['paterehab'] = df4['paterehab'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
-df4 = df4.dropna()
-df4.reset_index(drop=False, inplace=True)
-
-for i in range(len(df2)):
-    x = df2['hemo'][i].split()
-    for j in range(len(x)):
-        if x[j] not in wordlist:
-            wordlist.append(x[j].lower())
-
-# for i in range(len(df3)):
-#     x = df3['Key Brain Terms Glossary'][i].split()
-#     for j in range(len(x)):
-#         if x[j] not in wordlist:
-#             wordlist.append(x[j])
-
-for i in range(len(df4)):
-    x = df4['paterehab'][i].split()
-    for j in range(len(x)):
-        if x[j] not in wordlist:
-            wordlist.append(x[j].lower())
-
-# print(wordlist)
-
+add_wordlist('hemo')
+add_wordlist('Key Brain Terms Glossary')
 
 strlist = []
 
@@ -75,15 +60,10 @@ for i in range(len(df)):
         for k in range(len(wordlist)):
             if wordlist[k] in no_special_str.lower():
                 num = num + 1
-        # if no_special_str.isnumeric() :
-        #     print(no_special_str)
-        #     no_special_str = no_special_str[1:]
+        if len(no_special_str) > 0 and no_special_str[0].isnumeric() :
+            no_special_str = no_special_str[1:]
         if num > 0 and check == 0:
-            num_in_str=check_num_front(no_special_str)
-            if num_in_str:
-                no_special_str.rstrip(num_in_str.group())
             tmplist.append(no_special_str)
-
 
     strlist.append(tmplist)
 
