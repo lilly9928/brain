@@ -9,18 +9,17 @@ import re
 
 # kbs data location-------------------------
 data_src = 'C:/Users/andlabkbs/Desktop/meddataset/202cases/brain_hemo_214.xlsx'
-term_src = data_src+'/../term.xlsx'
+term_src = './../term.xlsx'
 #-------------------------------------------
 
 df = pd.read_excel(data_src, skiprows=5, usecols=['ID', 'readout'])
-# df['readout'] = df['readout'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
 df = df.dropna()
 df.reset_index(drop=False, inplace=True)
 
 wordlist = []
 wordoutlist = ['ct', 'fracture', 'eye', 'dental']
 
-# colum에 있는 word를 wordlist에 추가
+# column에 있는 word를 wordlist에 추가
 def add_wordlist(columnname):
     df = pd.read_excel(term_src, usecols=[columnname])
     df[columnname] = df[columnname].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
@@ -64,7 +63,6 @@ def isKorean(text):
     result = hangul.findall(text)
     return len(result)
 
-
 for i in range(len(df)):
     x = df['readout'][i].splitlines()
     tmplist = []
@@ -89,26 +87,12 @@ for i in range(len(df)):
     IDlist.append(df['ID'][i])
     strlist.append(tmplist)
 
-# print(strlist)
-
 for i in range(len(strlist)):
     newstr = ""
     for j in range(len(strlist[i])):
         newstr = newstr + strlist[i][j] + "\n"
     strlist[i] = newstr
 
-print(len(IDlist))
-
-print(len(strlist))
-
-data = [IDlist, strlist]
-
 extracted_str = pd.DataFrame(zip(IDlist, strlist), columns=['ID','str'])
-# extracted_str['str'] = extracted_str['str'].str.replace(pat=r'[^\w]', repl=r' ', regex=True)
 extracted_str['str'].str.strip()
-# print(extracted_str['str'])
-#
 extracted_str.to_excel('sample.xlsx')
-
-df7 = pd.read_excel('./sample.xlsx', usecols=['str'])
-# print(df7)
