@@ -1,0 +1,303 @@
+C:\Users\User\anaconda3\python.exe D:\github\brain\main.py 
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: amount developed a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: amount developed a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: amount sdhs callosum skull developed skull amount skull amount skull amount developed skull developed skull developed skull developed skull developed skull developed skull developed skull developed skull developed skull developed skull developed skull developed skull a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: amount developed developed developed a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+=> Saving checkpoint
+epochs 0 Training loss 1.8671447038650513
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sdh along the left convexity and tentorium also acute ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sdh along the left convexity and tentorium also acute ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sdh along the left convexity and tentorium also acute ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sdh along the left convexity and tentorium also acute ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+=> Saving checkpoint
+epochs 1 Training loss 0.4905058443546295
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sah noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in left side cavernous sinus and pons <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sah noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in left side cavernous sinus and pons <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sah noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in left side cavernous sinus and pons <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in left side cavernous sinus and pons <EOS>
+=> Saving checkpoint
+epochs 2 Training loss 0.20944516360759735
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+=> Saving checkpoint
+epochs 3 Training loss 0.35977092385292053
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+=> Saving checkpoint
+epochs 4 Training loss 0.27874627709388733
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 5 Training loss 0.2389218956232071
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT:    acute sah   along right peripontine cistern   and   righ frontal cortical cisterns    possibly traumatic    small amount acute sdh along left cerebral convexity    diffuse both cerebral cortical volume atrophy   moderate in degree    small vessel diseases on both periventricular   wms   grade i
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    acute sah   along right peripontine cistern   and   righ frontal cortical cisterns    possibly traumatic    small amount acute sdh along left cerebral convexity    diffuse both cerebral cortical volume atrophy   moderate in degree    small vessel diseases on both periventricular   wms   grade i
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    acute sah   along right peripontine cistern   and   righ frontal cortical cisterns    possibly traumatic    small amount acute sdh along left cerebral convexity    diffuse both cerebral cortical volume atrophy   moderate in degree    small vessel diseases on both periventricular   wms   grade i
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT:    acute sah   along right peripontine cistern   and   righ frontal cortical cisterns    possibly traumatic    small amount acute sdh along left cerebral convexity    diffuse both cerebral cortical volume atrophy   moderate in degree    small vessel diseases on both periventricular   wms   grade i
+=> Saving checkpoint
+epochs 6 Training loss 0.28963005542755127
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 7 Training loss 0.17878003418445587
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+=> Saving checkpoint
+epochs 8 Training loss 0.1733647733926773
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   trauma acute sah along the basal cisterns and both cerebral sulci   right left small acute sdh along both frontal convexities and falx small amount of pneumocephalus noted in left side cavernous sinus and t s sinuses   rather likely iv related air than trauma induced recommend
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   trauma acute sah along the basal cisterns and both cerebral sulci   right left small acute sdh along both frontal convexities and falx small amount of pneumocephalus noted in left side cavernous sinus and t s sinuses   rather likely iv related air than trauma induced recommend
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   trauma acute sah along the basal cisterns and both cerebral sulci   right left small acute sdh along both frontal convexities and falx small amount of pneumocephalus noted in left side cavernous sinus and t s sinuses   rather likely iv related air than trauma induced recommend
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   trauma acute sah along the basal cisterns and both cerebral sulci   right left small acute sdh along both frontal convexities and falx small amount of pneumocephalus noted in left side cavernous sinus and t s sinuses   rather likely iv related air than trauma induced recommend
+=> Saving checkpoint
+epochs 9 Training loss 0.08367659896612167
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute hemispheric ich involving the left side associated small amount of ivh and sah no hydrocephalus chronic lacunes in right bg and pons <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute hemispheric ich involving the left side associated small amount of ivh and sah no hydrocephalus chronic lacunes in right bg and pons <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute hemispheric ich involving the left side associated small amount of ivh and sah no hydrocephalus chronic lacunes in right bg and pons <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute hemispheric ich involving the left side associated small amount of ivh and sah no hydrocephalus chronic lacunes in right bg and pons <EOS>
+=> Saving checkpoint
+epochs 10 Training loss 0.1380453109741211
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+=> Saving checkpoint
+epochs 11 Training loss 0.15091970562934875
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+=> Saving checkpoint
+epochs 12 Training loss 0.18427185714244843
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+=> Saving checkpoint
+epochs 13 Training loss 0.1613554209470749
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   trauma findings acute sdh   sah along the falx   bilateral cerebral sulci   left sylvian fissure and acute ich in the right frontal lobe with perilesional edema suspicious focal high density lesions at the right caudate head diffuse mild brain atrophy scalp swelling   right forehead
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   trauma intervally increase in extent of probable sdh along right cerebral convexity causing parafalcine   medial uncal and mild downward transtentorial brain herniation multifocal contusional hemorrhages in the vertex area of right frontal and parietal lobes   and anteroinferior portion of bifrontal lobes small amout of sdh
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 14 Training loss 0.17291390895843506
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT:    edh   right posterior cranial fossa    contusional hemorrhage   left temporal lobe    multifocal sah    sdh   left cerebral convexity   interhemispheric fissure and tentorium    petechial hemorrhages   right temporal lobe    suspicious involving right carotid canal    r o incudomalleal subluxation   right <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+=> Saving checkpoint
+epochs 15 Training loss 0.16746194660663605
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 16 Training loss 0.18198512494564056
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT:    acute sah   along right peripontine cistern   and   righ frontal cortical cisterns    possibly traumatic    small amount acute sdh along left cerebral convexity    diffuse both cerebral cortical volume atrophy   moderate in degree    small vessel diseases on both periventricular   wms   grade i
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+=> Saving checkpoint
+epochs 17 Training loss 0.1811419278383255
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT:    acute sulcal sah at both frontal   parietal   occipitotemporal area    acute parafalcine hemorrhage with rt   side prominent    acute ich in rt   medial parietal area <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    edh   right posterior cranial fossa    contusional hemorrhage   left temporal lobe    multifocal sah    sdh   left cerebral convexity   interhemispheric fissure and tentorium    petechial hemorrhages   right temporal lobe    suspicious involving right carotid canal    r o incudomalleal subluxation   right <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah and and ivh with hydrocephalus <EOS>
+=> Saving checkpoint
+epochs 18 Training loss 0.14339390397071838
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: acute ich   both frontal lobe   right temporal lobe   increased perilesional hypodensities suspicious contusion   right superior frontal gyrus acute sah   both frontal lobe   right sylvian fissure   unchanged acute sdh   left frontal   falx   and right temporal convexity diffuse brain atrophy with mild
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    acute multi cisternal sah   along both cerebral hemispheric cortices posterior fossa cisterns    small amount sdh   along left tentorium    chronic subdural hygroma or chronic sdh   along both cerebral convexities    old lacune on left bg corona radiata skull vault is unremarkable <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+=> Saving checkpoint
+epochs 19 Training loss 0.11376260966062546
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   mental change acute sah mainly noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in right frontal base also small amount of sdh along bilateral convexities <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute sah mainly noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in right frontal base also small amount of sdh along bilateral convexities <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   mental change acute sdh along anterior falx and left convexity multiple contusional ich in left fronto temporal lobes small sah along bilateral cerebral sulci <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+=> Saving checkpoint
+epochs 20 Training loss 0.11629809439182281
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT:    acute sulcal sah at both frontal   parietal   occipitotemporal area    acute parafalcine hemorrhage with rt   side prominent    acute ich in rt   medial parietal area <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    acute sulcal sah at both frontal   parietal   occipitotemporal area    acute parafalcine hemorrhage with rt   side prominent    acute ich in rt   medial parietal area <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: acute ich   both frontal lobe   right temporal lobe   increased perilesional hypodensities suspicious contusion   right superior frontal gyrus acute sah   both frontal lobe   right sylvian fissure   unchanged acute sdh   left frontal   falx   and right temporal convexity diffuse brain atrophy with mild
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 21 Training loss 0.12113416939973831
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT:    contusional hemorrhage   both temporal lobe    sdhs in both cerebral convexity   interhemispheric fissure and right tentorium    multifocal sah and ivh <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    contusional hemorrhage   both temporal lobe    sdhs in both cerebral convexity   interhemispheric fissure and right tentorium    multifocal sah and ivh <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: acute ich in left bg associated ivh with mild hydrocephalus <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+=> Saving checkpoint
+epochs 22 Training loss 0.10184217244386673
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   trauma findings several focal high densities along bilateral cerebral sulci acute intraventricular hemorrhage at bilateral lateral ventricle   r l   and fourth ventricle suspicious acute intraparenchymal hemorrhage at the right basal ganglia suspicious mild brain swelling <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    contusional hemorrhage   both temporal lobe    sdhs in both cerebral convexity   interhemispheric fissure and right tentorium    multifocal sah and ivh <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   trauma findings several focal high densities along bilateral cerebral sulci acute intraventricular hemorrhage at bilateral lateral ventricle   r l   and fourth ventricle suspicious acute intraparenchymal hemorrhage at the right basal ganglia suspicious mild brain swelling <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah mainly noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in right frontal base also small amount of sdh along bilateral convexities <EOS>
+=> Saving checkpoint
+epochs 23 Training loss 0.11006364971399307
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   trauma findings acute sdh   sah along the falx   bilateral cerebral sulci   left sylvian fissure and acute ich in the right frontal lobe with perilesional edema suspicious focal high density lesions at the right caudate head diffuse mild brain atrophy scalp swelling   right forehead
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    edh   right posterior cranial fossa    contusional hemorrhage   left temporal lobe    multifocal sah    sdh   left cerebral convexity   interhemispheric fissure and tentorium    petechial hemorrhages   right temporal lobe    suspicious involving right carotid canal    r o incudomalleal subluxation   right <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 24 Training loss 0.12339213490486145
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: acute ich in left bg associated ivh with mild hydrocephalus <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    contusional hemorrhage   both temporal lobe    sdhs in both cerebral convexity   interhemispheric fissure and right tentorium    multifocal sah and ivh <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 25 Training loss 0.22793637216091156
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   trauma intervally increase in extent of probable sdh along right cerebral convexity causing parafalcine   medial uncal and mild downward transtentorial brain herniation multifocal contusional hemorrhages in the vertex area of right frontal and parietal lobes   and anteroinferior portion of bifrontal lobes small amout of sdh
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    diffuse low densities brain stem    left vertebral artery occlusion <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+=> Saving checkpoint
+epochs 26 Training loss 0.13109205663204193
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   trauma findings several focal high densities along bilateral cerebral sulci acute intraventricular hemorrhage at bilateral lateral ventricle   r l   and fourth ventricle suspicious acute intraparenchymal hemorrhage at the right basal ganglia suspicious mild brain swelling <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   trauma intervally increase in extent of probable sdh along right cerebral convexity causing parafalcine   medial uncal and mild downward transtentorial brain herniation multifocal contusional hemorrhages in the vertex area of right frontal and parietal lobes   and anteroinferior portion of bifrontal lobes small amout of sdh
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change findings acute ich   bilateral frontal lobes acute sdh   bilateral cerebral convexities   r l   and falx obliteration of the left lateral ventricle <EOS>
+=> Saving checkpoint
+epochs 27 Training loss 0.16414280235767365
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT:    acute sah along the left central sulcus    multiple microbleeds and multifocal superficial siderosis <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT:    diffuse low densities brain stem    left vertebral artery occlusion <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT:    r o stretching of left optic nerve    small edh   both frontal base and left temporal pole    contusional hemorrhages in both frontal   temporal lobes and left parietal lobe    sdh in right cerebral convexity   right tentorium and interhemispheric fissure    multifocal sah and small ivh
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change diffuse acute sdh in bilateral convexities   falx and tentorium also acute sah involving basal cisterns and sulci large scalp hematoma at occiput focal encephalomalacia in left frontal lobe <EOS>
+=> Saving checkpoint
+epochs 28 Training loss 0.18647299706935883
+Example 1 CORRECT: Small SAH  right parietal lobe sulci Diffuse brain atrophy with ventriculomegaly Suggestive of small vessel disease  both cerebral white matter and basal ganglia 
+Example 1 OUTPUT: clinical information   trauma small acute sah noted in left side quadrigeminal cistern no other intracranial hemorrhage noted left side and vertex scalp hematoma <EOS>
+Example 2 CORRECT: Acute SDH along bilateral convexities and falx Associated SAH along the basal cisterns and cerebral sulci
+Example 2 OUTPUT: clinical information   mental change acute hemispheric ich involving the left side associated small amount of ivh and sah no hydrocephalus chronic lacunes in right bg and pons <EOS>
+Example 3 CORRECT: Multi cisternal acue SAH  along basal sylvian ciserns and cortical cisterns Associated IVH hydrocephalus Skull vault is unremarkable Conclusion Acute SAH IVH  hydrocephalus
+Example 3 OUTPUT: clinical information   trauma small acute sah noted in left side quadrigeminal cistern no other intracranial hemorrhage noted left side and vertex scalp hematoma <EOS>
+Example 4 CORRECT:Clinical information  trauma Acute SAH along the basal cisterns and both cerebral sulci  right left small acute SDH along both frontal convexities and falx Small amount of pneumocephalus noted in left side cavernous sinus and T S sinuses  rather likely IV related air than trauma induced Recommend   Clinical correlation
+Example 4 OUTPUT: clinical information   mental change acute sah mainly noted along the basal cisterns associated ivh with mild hydrocephalus a large acute ich noted in right frontal base also small amount of sdh along bilateral convexities <EOS>
+=> Saving checkpoint
+epochs 29 Training loss 0.1420055627822876
+
+Process finished with exit code 0
