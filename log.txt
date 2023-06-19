@@ -1,0 +1,63 @@
+C:\Users\User\anaconda3\python.exe D:\github\brain\main.py 
+=> Saving checkpoint
+epochs 0 Training loss 0.3677758574485779
+=> Saving checkpoint
+epochs 1 Training loss 0.17024260759353638
+=> Saving checkpoint
+epochs 2 Training loss 0.08009899407625198
+=> Saving checkpoint
+epochs 3 Training loss 0.03732410445809364
+=> Saving checkpoint
+epochs 4 Training loss 0.06183416023850441
+=> Saving checkpoint
+epochs 5 Training loss 0.012366121634840965
+=> Saving checkpoint
+epochs 6 Training loss 0.008582659997045994
+=> Saving checkpoint
+epochs 7 Training loss 0.007813917472958565
+=> Saving checkpoint
+epochs 8 Training loss 0.006896891165524721
+=> Saving checkpoint
+epochs 9 Training loss 0.002956251846626401
+=> Saving checkpoint
+epochs 10 Training loss 0.005838768556714058
+=> Saving checkpoint
+epochs 11 Training loss 0.0019197865622118115
+=> Saving checkpoint
+epochs 12 Training loss 0.0015436157118529081
+=> Saving checkpoint
+epochs 13 Training loss 0.03451382368803024
+=> Saving checkpoint
+epochs 14 Training loss 0.015786224976181984
+=> Saving checkpoint
+epochs 15 Training loss 0.026947997510433197
+=> Saving checkpoint
+epochs 16 Training loss 0.00549433333799243
+=> Saving checkpoint
+epochs 17 Training loss 0.00490890396758914
+=> Saving checkpoint
+epochs 18 Training loss 0.003059898968786001
+=> Saving checkpoint
+epochs 19 Training loss 0.003267658408731222
+=> Saving checkpoint
+epochs 20 Training loss 0.002622294006869197
+=> Saving checkpoint
+epochs 21 Training loss 0.001219364465214312
+=> Saving checkpoint
+epochs 22 Training loss 0.0018190856790170074
+=> Saving checkpoint
+epochs 23 Training loss 0.001654881751164794
+=> Saving checkpoint
+epochs 24 Training loss 0.010224421508610249
+=> Saving checkpoint
+epochs 25 Training loss 0.007502099499106407
+=> Saving checkpoint
+epochs 26 Training loss 0.004389352165162563
+=> Saving checkpoint
+epochs 27 Training loss 0.005972443148493767
+=> Saving checkpoint
+epochs 28 Training loss 0.003528830362483859
+=> Saving checkpoint
+epochs 29 Training loss 0.0025663103442639112
+
+Process finished with exit code 0
