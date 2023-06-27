@@ -10,7 +10,7 @@ def make_txt_file(output_dir,image_info_dir,caption_dir):
     caption_data_length = len(caption_info)
     caption_index = 0
 
-    f = open(output_dir + '/captions.txt', 'w')
+    f = open(output_dir + '/captions_npy.txt', 'w')
     f.writelines('image,caption,label\n')
 
     for i in range(len(read_image_info)):
@@ -21,7 +21,7 @@ def make_txt_file(output_dir,image_info_dir,caption_dir):
         caption_case_name = caption_info['ID'][caption_index]
 
         if case_name == caption_case_name:
-            image_name = str(read_image_info['cropped img'][i].split('.')[0])+'.jpg'
+            image_name = str(read_image_info['cropped img'][i].split('.')[0])+'.npy'
             caption = str(caption_info['str'][caption_index]).replace('\n',' ')
             label = str(read_image_info['class'][i])
             print(image_name,caption)

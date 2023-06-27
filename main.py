@@ -2,7 +2,8 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import torchvision.transforms as transforms
-from data_loader import get_loader
+#from data_loader import get_loader
+from data_loader_npy import get_loader
 from model import CT2captionModel
 #from transformer import CT2captionModel
 from util.caption_utils import save_checkpoint, load_checkpoint, print_examples
@@ -10,13 +11,14 @@ def train():
     transform = transforms.Compose(
         [
             transforms.ToTensor(),
+            transforms.Resize((16,16))
            # transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5)),
         ]
     )
 
     train_loader, dataset = get_loader(
-        root_folder="D:/data/brain/preprocessed_data_v2/fourier_cut_cropped_img/cropped_img/",
-        annotation_file="D:/data/brain/captions.txt",
+        root_folder="D:/data/brain/preprocessed_data_v2/cropped_img/cropped_img/",
+        annotation_file="D:/data/brain/captions_npy.txt",
         transform=transform,
       #  num_workers = 2
     )

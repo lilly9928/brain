@@ -26,7 +26,7 @@ transform = transforms.Compose(
 )
 
 train_loader, dataset = get_loader(
-    root_folder="D:/data/brain/preprocessed_data_v2/fourier_cut_cropped_img/cropped_img/",
+    root_folder="D:/data/brain/preprocessed_data_v2/cropped_img/cropped_img/",
     annotation_file="D:/data/brain/captions.txt",
     transform=transform,
     #num_workers=2
@@ -78,9 +78,12 @@ def evaluate():
     references = list()
     hypotheses = list()
 
+    i = 0
     # For each image
     for _,img_name in enumerate(tqdm(allcaption)):
-
+        i = i+1
+        if i == 1000:
+            break
         image = transform(
             Image.open(f"D:/data/brain/preprocessed_data_v2/fourier_cut_cropped_img/cropped_img/{img_name}").convert("L")).unsqueeze(0)
         captions=[]

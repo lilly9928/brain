@@ -154,7 +154,7 @@ if __name__ == "__main__":
     )
 
     loader, dataset = get_loader(
-        "D:/data/brain/preprocessed_data_v2/fourier_cut_cropped_img/cropped_img/", "D:/data/brain/captions.txt", transform=transform
+        "D:/data/brain/preprocessed_data_v2/cropped_img/cropped_img/", "D:/data/brain/captions_npy.txt", transform=transform
     )
 
     for idx, (imgs, captions,label) in enumerate(loader):
