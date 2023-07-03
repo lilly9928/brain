@@ -20,7 +20,7 @@ def fourier(img):
 def npy2fimages(input_dir, output_dir):
     """Resize the images in 'input_dir' and save into 'output_dir'."""
     for idir in os.scandir(input_dir):
-        print(output_dir + '/' + idir.name)
+        # print(output_dir + '/' + idir.name)
         f = glob.glob(idir.path)[0]
         img = io.imread(f, as_gray=True)
         img = fourier(img)
@@ -37,8 +37,8 @@ def npy2fimages(input_dir, output_dir):
         #           .format(iimage + 1, n_images, output_dir + '/' + idir.name))
 # define a main function
 def main():
-    input_dir = 'C:/Users/andlabkbs/Desktop/dataset/IU-Xray/images/images_normalized'
-    output_dir = 'C:/Users/andlabkbs/Desktop/dataset/IU-Xray/images/fourier'
+    input_dir = 'D:/data/iuct/images/images_normalized'
+    output_dir = 'D:/data/iuct/images/fourier'
     npy2fimages(input_dir, output_dir)
 
 

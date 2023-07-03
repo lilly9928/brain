@@ -154,7 +154,7 @@ if __name__ == "__main__":
     )
 
     loader, dataset = get_loader(
-        "C:/Users/andlabkbs/Desktop/dataset/IU-Xray/images/fourier", "./iu_xray_data.xlsx", transform=transform
+        "D:/data/iuct/images/fourier", "./iu_xray_data.xlsx", transform=transform
     )
 
     for idx, (imgs, captions,label) in enumerate(loader):

@@ -3,25 +3,31 @@ import torch.nn as nn
 import torch.optim as optim
 import torchvision.transforms as transforms
 #from data_loader import get_loader
-from data_loader_npy import get_loader
+from iu_xray.data_loader_iu_xray import get_loader
+#from data_loader_npy import get_loader
 from model import CT2captionModel
 #from transformer import CT2captionModel
-from util.caption_utils import save_checkpoint, load_checkpoint, print_examples
+from util.caption_utils import save_checkpoint, load_checkpoint, print_examples,print_ixray_examples
 def train():
     transform = transforms.Compose(
         [
             transforms.ToTensor(),
-            transforms.Resize((16,16))
            # transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5)),
         ]
     )
 
+    # train_loader, dataset = get_loader(
+    #     root_folder="D:/data/brain/preprocessed_data_v2/cropped_img/cropped_img/",
+    #     annotation_file="D:/data/brain/captions_npy.txt",
+    #     transform=transform,
+    #   #  num_workers = 2
+    # )
+
+#iuxray 데이터 셋
     train_loader, dataset = get_loader(
-        root_folder="D:/data/brain/preprocessed_data_v2/cropped_img/cropped_img/",
-        annotation_file="D:/data/brain/captions_npy.txt",
-        transform=transform,
-      #  num_workers = 2
+        "D:/data/iuct/images/fourier", "D:/data/iuct/iu_xray_data.xlsx", transform=transform
     )
+
 
     torch.backends.cudnn.benchmark = True
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -35,8 +41,8 @@ def train():
     num_decoder_layers = 6
     dropout_p = 0.1
     in_channels= 1
-    patch_size = 2
-    img_size = 16
+    patch_size = 16
+    img_size = 224
     depth = 3
     learning_rate = 3e-4
     num_epochs = 30
@@ -58,7 +64,8 @@ def train():
 
     for epoch in range(num_epochs):
 
-        print_examples(model,start_token,device,dataset)
+        #print_examples(model,start_token,device,dataset)
+        print_ixray_examples(model,start_token,device,dataset)
         if save_model:
             checkpoint = {
                 "state_dict": model.state_dict(),
